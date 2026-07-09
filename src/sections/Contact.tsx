@@ -12,12 +12,20 @@ export default function Contact() {
           Estoy buscando mi primera oportunidad como desarrollador Full Stack.
           Si tienes un proyecto o una vacante que encaje, escríbeme.
         </p>
-        <div className="flex flex-col sm:flex-row gap-6">
+        <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
           <a
             href="mailto:adrian.belarte.it@gmail.com"
             className="bg-amber-400 text-stone-950 px-8 py-4 text-sm font-medium hover:bg-amber-300 transition-colors text-center"
           >
             adrian.belarte.it@gmail.com
+          </a>
+          <a
+            href="https://www.linkedin.com/in/adrianbelartezapata"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-stone-700 text-stone-300 px-8 py-4 text-sm font-medium hover:border-amber-400 hover:text-amber-400 transition-colors text-center"
+          >
+            LinkedIn
           </a>
           <a
             href="https://github.com/adrianbelarte"
